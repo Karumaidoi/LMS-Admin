@@ -1,0 +1,91 @@
+{
+  "name": "material-dashboard-tap-go-kenya",
+  "version": "2.2.0",
+  "private": true,
+  "author": "Alex Maina",
+  "license": "N/A",
+  "description": "Tap&Go Sacco React App",
+  "dependencies": {
+    "@emotion/cache": "11.10.8",
+    "@emotion/react": "11.10.8",
+    "@emotion/styled": "11.10.8",
+    "@material-tailwind/react": "^2.1.0",
+    "@mui/icons-material": "5.11.16",
+    "@mui/material": "5.12.3",
+    "@supabase/supabase-js": "^2.38.0",
+    "@tanstack/react-query": "^4.35.7",
+    "@tanstack/react-query-devtools": "^4.35.7",
+    "antd": "^5.7.3",
+    "axios": "^1.4.0",
+    "chart.js": "4.3.0",
+    "chroma-js": "2.4.2",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.0.0",
+    "datatables.net-dt": "^1.13.6",
+    "date-fns": "^2.30.0",
+    "dot-env": "^0.0.1",
+    "lodash": "^4.17.21",
+    "lucide-react": "^0.270.0",
+    "moment": "^2.29.4",
+    "prop-types": "15.8.1",
+    "react": "18.2.0",
+    "react-chartjs-2": "5.2.0",
+    "react-dom": "18.2.0",
+    "react-file-input": "^0.2.5",
+    "react-github-btn": "1.4.0",
+    "react-hook-form": "^7.47.0",
+    "react-hot-toast": "^2.4.1",
+    "react-infinite-scroll-component": "^6.1.0",
+    "react-router-dom": "6.11.0",
+    "react-scripts": "^5.0.1",
+    "react-status-alert": "^1.2.1",
+    "react-table": "7.8.0",
+    "snackbar": "^1.1.0",
+    "styled-components": "^6.0.8",
+    "stylis": "4.1.4",
+    "stylis-plugin-rtl": "2.1.1",
+    "tailwind-merge": "^1.14.0",
+    "tailwindcss": "^3.3.3",
+    "tailwindcss-animate": "^1.0.6",
+    "uuid": "^9.0.1",
+    "yup": "1.1.1"
+  },
+  "scripts": {
+    "start": "GENERATE_SOURCEMAP=false react-scripts start",
+    "build": "GENERATE_SOURCEMAP=false react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "8.39.0",
+    "eslint-config-prettier": "8.8.0",
+    "eslint-plugin-import": "2.27.5",
+    "eslint-plugin-jsx-a11y": "6.7.1",
+    "eslint-plugin-prettier": "4.2.1",
+    "eslint-plugin-react": "7.32.2",
+    "eslint-plugin-react-hooks": "4.6.0",
+    "prettier": "2.8.8"
+  },
+  "overrides": {
+    "svgo": "3.0.2"
+  }
+}
